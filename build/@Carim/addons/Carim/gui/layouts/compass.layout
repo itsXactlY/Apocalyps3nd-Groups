@@ -1,0 +1,56 @@
+FrameWidgetClass rootFrame {
+    visible 0
+    ignorepointer 1
+    position 0 0
+    size 1 1
+    hexactpos 0
+    vexactpos 0
+    hexactsize 0
+    vexactsize 0
+    scaled 1
+    {
+        FrameWidgetClass FrameCompass {
+            visible 1
+            ignorepointer 1
+            position 0 0
+            size 648 41
+            halign center_ref
+            hexactpos 0
+            vexactpos 0
+            hexactsize 1
+            vexactsize 1
+            {
+                ImageWidgetClass ImageCompass {
+                    visible 1
+                    clipchildren 0
+                    inheritalpha 0
+                    ignorepointer 1
+                    position -1 0
+                    size 3 1
+                    hexactpos 0
+                    vexactpos 0
+                    hexactsize 0
+                    vexactsize 0
+                    scaled 1
+                    imageTexture "{B8F3C98074320132}Carim/Carim/gui/textures/Compass_slim.edds"
+                    mode blend
+                    "src alpha" 1
+                    "no wrap" 1
+                    stretch 1
+                    "flip u" 0
+                    "flip v" 0
+                }
+                GridSpacerWidgetClass spacer {
+                    ignorepointer 1
+                    color 0.956 0.263 0.212 0.8
+                    size 4 0.2
+                    halign center_ref
+                    hexactpos 1
+                    vexactpos 1
+                    hexactsize 1
+                    vexactsize 0
+                }
+            }
+        }
+    }
+}
