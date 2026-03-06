@@ -1,6 +1,6 @@
-# Carim
+# Apocalyps3nd Groups
 
-*Open Source mods for DayZ*
+*Open Source mod for DayZ*
 
 This Open Source mod includes all the features Carim has to offer:
 
@@ -201,7 +201,7 @@ Also, make sure the map can opened by disabling the 3d map
 
 - This mod originated from the Carim DayZ project
 - The original source is at https://github.com/CarimDayZ/dayz-mod-carim
-- To support this open source project, you can donate at https://paypal.me/cnofafva
+- To support this open source project, you can donate at https://paypal.me/aLcaTr4z
 - To learn more visit https://discord.gg/kdPnVu4
 
 ## Acknowledgements
