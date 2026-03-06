@@ -1,0 +1,136 @@
+FrameWidgetClass rootFrame {
+ clipchildren 0
+ position 0 0
+ size 0 0
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ priority 200
+ {
+  PanelWidgetClass panel {
+   position 0 0
+   size 376 212
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_black
+   {
+    EditBoxWidgetClass text {
+     position 8 8
+     size 360 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Editor
+     text "example label"
+     font "gui/fonts/sdf_MetronLight72"
+    }
+    ButtonWidgetClass previous {
+     position 288 48
+     size 18 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "<"
+    }
+    ImageWidgetClass icon {
+     ignorepointer 1
+     color 0 0 0 0
+     position 310 48
+     size 36 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    ButtonWidgetClass next {
+     position 350 48
+     size 18 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text ">"
+    }
+    ButtonWidgetClass save {
+     position 288 88
+     size 80 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "#menu_apply"
+    }
+    ButtonWidgetClass deleteButton {
+     position 288 128
+     size 80 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "#menu_remove"
+    }
+    ButtonWidgetClass cancel {
+     position 288 168
+     size 80 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "#menu_cancel"
+    }
+    CheckBoxWidgetClass visible3d {
+     position 8 168
+     size 64 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     text "3D"
+     checked 0
+    }
+    SliderWidgetClass distance {
+     position 76 168
+     size 208 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     style Editor
+     maximum 6000
+     step 10
+     current 6000
+     "draw marker" 1
+     {
+      TextWidgetClass distanceLabel {
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "unlimited"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

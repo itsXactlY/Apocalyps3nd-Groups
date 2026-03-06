@@ -1,0 +1,2 @@
+class CarimModelStaticOverrideMarkers extends CarimModelAbcMarkers {
+}

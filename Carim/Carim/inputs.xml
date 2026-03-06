@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UACarimAutorunToggle"
+                   loc="Autorun Toggle"
+                   />
+            <input name="UACarimChatChannel"
+                   loc="Switch Chat Channel"
+                   />
+            <input name="UACarimChatSizeDown"
+                   loc="Decrease Font Size"
+                   />
+            <input name="UACarimChatSizeUp"
+                   loc="Increase Font Size"
+                   />
+            <input name="UACarimCompassToggle"
+                   loc="Compass Toggle"
+                   />
+            <input name="UACarimPartyMenu"
+                   loc="Party Menu"
+                   />
+            <input name="UACarimPartyPing"
+                   loc="Party Ping"
+                   />
+            <input name="UACarimPartyPingClear"
+                   loc="Party Ping Clear"
+                   />
+            <input name="UACarimToggleMarkers"
+                   loc="Toggle Markers"
+                   />
+        </actions>
+        <sorting name="Carim"
+                 loc="Carim"
+                 >
+            <input name="UACarimAutorunToggle" />
+            <input name="UACarimChatChannel" />
+            <input name="UACarimChatSizeDown" />
+            <input name="UACarimChatSizeUp" />
+            <input name="UACarimCompassToggle" />
+            <input name="UACarimPartyMenu" />
+            <input name="UACarimPartyPing" />
+            <input name="UACarimPartyPingClear" />
+            <input name="UACarimToggleMarkers" />
+        </sorting>
+    </inputs>
+    <preset>
+        <input name="UACarimAutorunToggle">
+            <btn name="kAdd" />
+        </input>
+        <input name="UACarimChatChannel">
+            <btn name="kZ" />
+        </input>
+        <input name="UACarimChatSizeDown">
+            <btn name="kLBracket" />
+        </input>
+        <input name="UACarimChatSizeUp">
+            <btn name="kRBracket" />
+        </input>
+        <input name="UACarimCompassToggle">
+            <btn name="kH" />
+        </input>
+        <input name="UACarimPartyMenu">
+            <btn name="kP" />
+        </input>
+        <input name="UACarimPartyPing">
+            <btn name="kT" />
+        </input>
+        <input name="UACarimPartyPingClear">
+            <btn name="kY" />
+        </input>
+        <input name="UACarimToggleMarkers">
+            <btn name="kK" />
+        </input>
+    </preset>
+</modded_inputs>

@@ -1,0 +1,63 @@
+[h1]Carim[/h1]
+[b]Open Source mods for DayZ[/b]
+[hr][/hr]
+
+Full documentation (including configuration for server owners) is in the README on GitHub: https://github.com/CarimDayZ/dayz-mod-carim/blob/main/README.md
+
+This Open Source mod includes all the features Carim has to offer:
+[olist]
+    [*] Autorun
+    [*] Chat
+    [*] Compass
+    [*] Map
+    [*] Nametags
+    [*] Party
+[/olist]
+You are free to use this mod on your monetized servers. The works are licensed under the [url=https://www.apache.org/licenses/LICENSE-2.0]Apache License[/url].
+
+[h2]Autorun[/h2]
+[hr][/hr]
+Provides autorunning functionality. Start and stop using the configurable key (default: '+'). Adjust the running speed using your normal keybinds.
+
+[h2]Chat[/h2]
+[hr][/hr]
+Provides global chat. Switch chat channels with the press of a configurable key (default: 'Z'). Adjust size with configurable keys (up: ']', down: '[').
+
+[h2]Compass[/h2]
+[hr][/hr]
+Provides a compass at the top of the display with the press of a configurable key (default: 'H').
+
+[h2]Map[/h2]
+[hr][/hr]
+Provides an in-game map for saving markers and viewing party members. Open with the vanilla configurable key (default: 'M'). Double-click to add a marker, double-right-click to edit and remove. Toggle visibility with a configurable key (default: 'K').
+
+To apply a nicer style than vanilla with additional locations, you can use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3483791557]the CarimMapStyle mod[/url].
+
+[h2]Nametags[/h2]
+[hr][/hr]
+Provides ability to configure zones to display player nametags by specifying a position and radius. Toggle visibility with a configurable key (default: 'K').
+
+[h2]Party[/h2]
+[hr][/hr]
+Allows creation of parties and displaying of nametags of party members. There is no party size limit.
+
+Parties are managed by the player. Open the menu (default key: 'P'), and Add players to your party. If they have also added you, then your nametags will automatically appear. Parties are saved, so you don't have to re-create it each time you login. They also work for whatever server runs the mod.
+
+Tactical pings can be placed (default key: 'T', clear with 'Y') that will be shared with your party.
+
+Toggle visibility of markers and nametags with a configurable key (default: 'K').
+
+Optionally, servers can configure Admin Ids that allow adding party members without them needing to add back.
+
+[h2]Information[/h2]
+[hr][/hr]
+This mod originated from the Carim DayZ project
+The original source is at https://github.com/CarimDayZ/dayz-mod-carim
+To support this open source project, you can donate at https://paypal.me/cnofafva
+To learn more visit https://discord.gg/kdPnVu4
+
+[h2]Acknowledgements[/h2]
+[hr][/hr]
+[list]
+    [*] Thank you to Karma's Wasteland for testing and providing valuable feedback.
+[/list]
